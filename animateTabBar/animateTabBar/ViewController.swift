@@ -14,6 +14,18 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    
+    
+    
+    @IBAction func didTapButton(_ sender: Any) {
+        
+        
+        let vc =  UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "SecondViewController")
+        
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+    
 }
 
