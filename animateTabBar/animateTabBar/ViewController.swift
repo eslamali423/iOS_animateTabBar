@@ -14,6 +14,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        // this for set tabBar.isHidden  =  false
+        // show navBar anyways
+        Helper.shared.animateTabBar(navBar: self.navigationController, show: true)
+    }
     
     
     

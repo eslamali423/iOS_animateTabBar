@@ -12,10 +12,16 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        view.backgroundColor = .yellow
     }
     
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        Helper.shared.animateTabBar(navBar: self.navigationController)
+    }
+    
+    
     /*
     // MARK: - Navigation
 
