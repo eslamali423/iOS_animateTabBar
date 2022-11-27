@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated)
         // this for set tabBar.isHidden  =  false
         // show navBar anyways
-        Helper.shared.animateTabBar(navBar: self.navigationController, show: true)
+        Manager.shared.animateTabBar(navBar: self.navigationController, show: true)
     }
     
     

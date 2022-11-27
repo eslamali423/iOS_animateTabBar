@@ -15,7 +15,7 @@
 		287B103F29327515000E800A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287B103D29327515000E800A /* LaunchScreen.storyboard */; };
 		287B1047293275EE000E800A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B1046293275EE000E800A /* Helper.swift */; };
 		287B1049293275FF000E800A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B1048293275FF000E800A /* SecondViewController.swift */; };
-		287B104B293276A0000E800A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287B104A2932769F000E800A /* Helper.swift */; };
+		28E2A8CF293338E300D7E08C /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E2A8CE293338E300D7E08C /* Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		287B104029327515000E800A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287B1046293275EE000E800A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		287B1048293275FF000E800A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		287B104A2932769F000E800A /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = "../../../../../Grand/Hers/HersUser/HersUser/Supporting Files/Helper.swift"; sourceTree = "<group>"; };
+		28E2A8CE293338E300D7E08C /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +66,12 @@
 				287B103429327513000E800A /* SceneDelegate.swift */,
 				287B1046293275EE000E800A /* Helper.swift */,
 				287B103629327513000E800A /* ViewController.swift */,
-				287B104A2932769F000E800A /* Helper.swift */,
 				287B1048293275FF000E800A /* SecondViewController.swift */,
 				287B103829327513000E800A /* Main.storyboard */,
 				287B103B29327515000E800A /* Assets.xcassets */,
 				287B103D29327515000E800A /* LaunchScreen.storyboard */,
 				287B104029327515000E800A /* Info.plist */,
+				28E2A8CE293338E300D7E08C /* Manager.swift */,
 			);
 			path = animateTabBar;
 			sourceTree = "<group>";
@@ -148,11 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				287B103729327513000E800A /* ViewController.swift in Sources */,
+				28E2A8CF293338E300D7E08C /* Manager.swift in Sources */,
 				287B103329327513000E800A /* AppDelegate.swift in Sources */,
 				287B103529327513000E800A /* SceneDelegate.swift in Sources */,
 				287B1049293275FF000E800A /* SecondViewController.swift in Sources */,
 				287B1047293275EE000E800A /* Helper.swift in Sources */,
-				287B104B293276A0000E800A /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

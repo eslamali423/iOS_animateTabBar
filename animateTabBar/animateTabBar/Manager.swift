@@ -1,16 +1,14 @@
 //
-//  Helper.swift
+//  Manager.swift
 //  animateTabBar
 //
-//  Created by Eslam Ali  on 26/11/2022.
+//  Created by Eslam Ali  on 27/11/2022.
 //
 
 import Foundation
 import UIKit
 
-
-
-class Helper {
+class Manager {
     static let shared = Helper()
     //MARK: - TabBar
     func animateTabBar(navBar:  UINavigationController?, show: Bool = false) {
@@ -40,5 +38,5 @@ class Helper {
         }
     }
     
-  
+   
 }

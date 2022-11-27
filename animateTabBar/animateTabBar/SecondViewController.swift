@@ -18,7 +18,7 @@ class SecondViewController: UIViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        Helper.shared.animateTabBar(navBar: self.navigationController)
+        Manager.shared.animateTabBar(navBar: self.navigationController)
     }
     
     
